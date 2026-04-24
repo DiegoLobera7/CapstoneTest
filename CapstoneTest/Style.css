@@ -10,7 +10,7 @@
 
 .texts {
     text-align: center;
-    color: ghostwhite;
+    color: black;
     font-family: sans-serif;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .navbar {
-    background-color: lightgrey;
+    background-color: grey;
     padding: 25px;
 }
 
@@ -69,6 +69,14 @@
     height: 300px; /* controls how tall it is */
 
     background-image: url("\Gemini_Generated_Image_mkulqwmkulqwmkul.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero-section2 {
+    height: 300px; /* controls how tall it is */
+
+    background-image: url("\Gemini_Generated_Image_ao35jqao35jqao35.png");
     background-size: cover;
     background-position: center;
     position: relative;

@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="Style.css" />
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server"> 
         <div>
             <nav class="navbar">
                 <ul class="nav-menu">
@@ -18,14 +18,14 @@
                 </ul>
             </nav>
         </div>
-        <div class="hero-section">
+        <div class="hero-section2">
             <div class="hero-overlay">
                 <h1 class="hero-text">Testimonials</h1>
             </div>
         </div>
         <div> 
             <asp:Panel style="margin-top: 100px" ID="Panel1" runat="server" class="content-box">
-                <p> "I had a great experience working with my realator marquayle martin. He did a great job and was a true professional."</p>
+                <p> "I had a great experience working with my realator. He did a great job and was a true professional."</p>
                 <div style="display: flex; gap: 10px">
                     <asp:Image style="width: 50px" ID="Image1" runat="server" src="\Gemini_Generated_Image_c67lxc67lxc67lxc.png"/>
                     <p>Diego Lobera</p>
@@ -47,6 +47,11 @@
             </asp:Panel>
             
         </div> <br />
+        <footer class="site-footer" style="background-color: lightslategrey">
+            <div style="display: flex">
+                <p>Need help?<br />Contact our agents and enhance your quality of life.</p>
+            </div>
+        </footer>
         <footer class="site-footer">
             <p>Contact us: RealStateFW@gmail.com</p>
             <p>© 2026 Real State Fort Wayne</p>        
