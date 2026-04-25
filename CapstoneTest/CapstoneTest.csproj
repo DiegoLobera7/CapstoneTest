@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CristianoRonaldo.aspx" />
+    <Content Include="CVPage.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="KylianMbappe.aspx" />
     <Content Include="LeoMessi.aspx" />
@@ -83,6 +84,13 @@
     </Compile>
     <Compile Include="CristianoRonaldo.aspx.designer.cs">
       <DependentUpon>CristianoRonaldo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CVPage.aspx.cs">
+      <DependentUpon>CVPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CVPage.aspx.designer.cs">
+      <DependentUpon>CVPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
