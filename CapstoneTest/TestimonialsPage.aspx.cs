@@ -14,5 +14,9 @@ namespace CapstoneTest
 
         }
 
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AgentsPage.aspx");
+        }
     }
 }

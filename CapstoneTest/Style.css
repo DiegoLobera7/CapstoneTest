@@ -10,7 +10,7 @@
 
 .texts {
     text-align: center;
-    color: black;
+    color: dimgrey;
     font-family: sans-serif;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .nav-menu a:hover {
-    color: #00bfff; /* hover effect */
+    color: dimgrey; /* hover effect */
 }
 
 .content-box {
@@ -113,3 +113,29 @@
     font-size: 32px;
     text-align: center;
 }
+
+.custom-button {
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    padding: 0px 20px;
+
+    border: 2px solid lightgrey;
+    border-radius: 8px;
+
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    .custom-button:hover {
+        background-color: lightgrey;
+        border-color: grey;
+        transform: scale(1.05);
+    }
+
+    .custom-button:active {
+        transform: scale(0.98);
+    }

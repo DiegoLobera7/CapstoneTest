@@ -67,51 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CristianoRonaldo.aspx" />
-    <Content Include="CVPage.aspx" />
     <Content Include="HomePage.aspx" />
-    <Content Include="KylianMbappe.aspx" />
-    <Content Include="LeoMessi.aspx" />
     <Content Include="Style.css" />
     <Content Include="TestimonialsPage.aspx" />
     <Content Include="Web.config" />
     <Content Include="AgentsPage.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CristianoRonaldo.aspx.cs">
-      <DependentUpon>CristianoRonaldo.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CristianoRonaldo.aspx.designer.cs">
-      <DependentUpon>CristianoRonaldo.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="CVPage.aspx.cs">
-      <DependentUpon>CVPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CVPage.aspx.designer.cs">
-      <DependentUpon>CVPage.aspx</DependentUpon>
-    </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="KylianMbappe.aspx.cs">
-      <DependentUpon>KylianMbappe.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="KylianMbappe.aspx.designer.cs">
-      <DependentUpon>KylianMbappe.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="LeoMessi.aspx.cs">
-      <DependentUpon>LeoMessi.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="LeoMessi.aspx.designer.cs">
-      <DependentUpon>LeoMessi.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestimonialsPage.aspx.cs">

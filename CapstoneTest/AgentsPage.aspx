@@ -74,8 +74,17 @@
             </div>
         </div> <br />
         <footer class="site-footer">
-            <p>Contact us: RealStateFW@gmail.com</p>
-            <p>© 2026 Real State Fort Wayne</p>        
+            <strong>Contact us</strong>
+            <div class="image-row">
+                <p>9601 Coldwater Road</p>
+                <p>Fort Wayne, IN 46807</p>
+                <p>260-784-2661</p>
+                <p>RealStateFW@gmail.com</p>
+            </div>
+            <div> <br />
+                <asp:Image ID="Image7" runat="server" Style="width: 150px"  src="Gemini_Generated_Image_ry2mhjry2mhjry2m (1).png" />
+                <p>© 2026 Real State Fort Wayne</p>  
+            </div>      
         </footer>
     </form>
 </body>
