@@ -11,7 +11,8 @@
     <form id="form1" runat="server"> 
         <div>
             <nav class="navbar">
-                <ul class="nav-menu">
+                <asp:Image ID="LogoImage" runat="server" Style="width: 150px"  src="Gemini_Generated_Image_ry2mhjry2mhjry2m (1).png" />
+                <ul class="nav-menu" style="margin-right: 200px">
                     <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/HomePage.aspx" Text="Home" /></li>
                     <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/AgentsPage.aspx" Text="Agents" /></li>
                     <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/TestimonialsPage.aspx" Text="Testimonials" /></li>
@@ -25,24 +26,24 @@
         </div>
         <div> 
             <asp:Panel style="margin-top: 100px" ID="Panel1" runat="server" class="content-box">
-                <p> "I had a great experience working with my realator. He did a great job and was a true professional."</p>
+                <p style="font-family: Century"> "I had a great experience working with my realator. He did a great job and was a true professional."</p>
                 <div style="display: flex; gap: 10px">
                     <asp:Image style="width: 50px" ID="Image1" runat="server" src="\Gemini_Generated_Image_c67lxc67lxc67lxc.png"/>
-                    <p>Diego Lobera</p>
+                    <p><strong>Diego Lobera</strong></p>
                 </div>
             </asp:Panel> 
             <asp:Panel style="margin-top: 100px" ID="Panel2" runat="server" class="content-box">
                 <p> "These guys get it done and they mean business. I had a good experience working with them."</p>
                 <div style="display: flex; gap: 10px">
                     <asp:Image style="width: 50px" ID="Image2" runat="server" src="\Gemini_Generated_Image_c67lxc67lxc67lxc.png"/>
-                    <p>Isaac Maurer</p>
+                    <p><strong>Isaac Maurer</strong></p>
                 </div>
             </asp:Panel>
             <asp:Panel style="margin-top: 100px" ID="Panel3" runat="server" class="content-box">
                 <p> "Great experience in buying a home and we were over 2000 miles away they went above and beyond in meeting our requirements very professional with a personal touch!"</p>
                 <div style="display: flex; gap: 10px">
                     <asp:Image style="width: 50px" ID="Image3" runat="server" src="\Gemini_Generated_Image_c67lxc67lxc67lxc.png"/>
-                    <p>Parker Dugan</p>
+                    <p><strong>Parker Dugan</strong></p>
                 </div>
             </asp:Panel>
             

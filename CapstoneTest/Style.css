@@ -24,13 +24,27 @@
 
 .navbar {
     background-color: grey;
-    padding: 25px;
+    align-items: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.logo img {
+    height: 40px;
+    display: block; /* removes weird inline spacing */
 }
 
 .nav-menu {
-    list-style: none; /* removes bullets */
-    display: flex; /* puts items in a row */
-    justify-content: center; /* center menu */
+    list-style: none;
+    display: flex;
+    gap: 30px;
     margin: 0;
     padding: 0;
 }
