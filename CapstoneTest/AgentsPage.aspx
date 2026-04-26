@@ -1,5 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AgentsPage.aspx.cs" Inherits="CapstoneTest.WebForm2" %>
-
+﻿
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AgentsPage.aspx.cs" Inherits="CapstoneTest.WebForm2" %>
+    
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -36,42 +37,49 @@
             <div class="image-row">
                 <div>
                     <asp:Image ID="Image2" width="400px" runat="server" src="Gemini_Generated_Image_armncwarmncwarmn.png"/>   
-                    <p class="texts"><strong>Alejandor Brewer</strong></p>
-                    <p class="texts">The 'GOAT' of sales</p>
-                    <asp:ImageButton style="" width="25px" ID="ImageButton1" runat="server" AlternateText="More info"  ImageUrl="\Gemini_Generated_Image_tlrmkqtlrmkqtlrm.png" OnClick="ImageButton1_Click"/>
+                    <p class="texts"><strong>Alejandro Brewer</strong></p>
+                    <p class="texts">Managing Broker</p>
+                    <asp:ImageButton style="margin-left: 190px;" width="25px" ID="ImageButton1" runat="server" AlternateText="More info"  ImageUrl="\Gemini_Generated_Image_tlrmkqtlrmkqtlrm.png" OnClick="ImageButton1_Click"/>
+                    <br /><br /><asp:Label class="texts" ID="Label1" runat="server" Text=""></asp:Label>
                 </div>
                 <div>
                     <asp:Image ID="Image1" width="400px" runat="server" src="Gemini_Generated_Image_hlev51hlev51hlev.png"/>  
                     <p class="texts"><strong>Nicole Lara</strong></p>
-                    <p class="texts">He'll help you for SIUUUre</p>
-                    <asp:ImageButton style="" width="25px" ID="ImageButton2" runat="server" AlternateText="More info"  ImageUrl="\Gemini_Generated_Image_tlrmkqtlrmkqtlrm.png" OnClick="ImageButton2_Click"/>
+                    <p class="texts">Credit Counselor</p>
+                    <asp:ImageButton style="margin-left: 190px;" width="25px" ID="ImageButton2" runat="server" AlternateText="More info"  ImageUrl="\Gemini_Generated_Image_tlrmkqtlrmkqtlrm.png" OnClick="ImageButton2_Click"/>
+                    <br /><br /><asp:Label class="texts" ID="Label2" runat="server" Text=""></asp:Label>
                 </div>
                 <div>
                     <asp:Image ID="Image3" width="400px" runat="server" src="Gemini_Generated_Image_i61zyyi61zyyi61z.png"/>
                     <p class="texts"><strong>Wilson Cantu</strong></p>
-                    <p class="texts">Fastest negotiator ever</p>
+                    <p class="texts">Realtor</p>
+                    <asp:ImageButton style="margin-left: 190px;" width="25px" ID="ImageButton3" runat="server" AlternateText="More info"  ImageUrl="\Gemini_Generated_Image_tlrmkqtlrmkqtlrm.png" OnClick="ImageButton3_Click"/>
+                    <br /><br /><asp:Label class="texts" ID="Label3" runat="server" Text=""></asp:Label>
                 </div>
-            </div> <br /> <br /> <br />
+            </div> <br /> <br /> <br /> <br /><br />
             <div class="image-row">
                 <div> 
                     <asp:Image ID="Image4" width="400px" runat="server" src="Gemini_Generated_Image_mzbc82mzbc82mzbc.png"/>
                     <p class="texts"><strong>Alan Roman</strong></p>
-                    <p class="texts">Real estate maestro</p>
-                    
+                    <p class="texts">Realtor</p>
+                    <asp:ImageButton style="margin-left: 190px;" width="25px" ID="ImageButton4" runat="server" AlternateText="More info"  ImageUrl="\Gemini_Generated_Image_tlrmkqtlrmkqtlrm.png" OnClick="ImageButton4_Click"/>
+                    <br /><br /><asp:Label class="texts" ID="Label4" runat="server" Text=""></asp:Label>
                 </div>
                 <div>
                     <asp:Image ID="Image5" width="400px" runat="server" src="Gemini_Generated_Image_s4cgpfs4cgpfs4cg.png"/>
                     <p class="texts"><strong>Chanelle Lam</strong></p>
-                    <p class="texts">Most secure agent</p>
-                    
+                    <p class="texts">Executive Assistant</p>
+                    <asp:ImageButton style="margin-left: 190px;" width="25px" ID="ImageButton5" runat="server" AlternateText="More info"  ImageUrl="\Gemini_Generated_Image_tlrmkqtlrmkqtlrm.png" OnClick="ImageButton5_Click"/>
+                    <br /><br /><asp:Label class="texts" ID="Label5" runat="server" Text=""></asp:Label>
                 </div>
                 <div>
                     <asp:Image ID="Image6" width="400px" runat="server" src="Gemini_Generated_Image_tfv67ctfv67ctfv6.png"/>
                     <p class="texts"><strong>Angelica Koch</strong></p>
-                    <p class="texts">Most accurate agent</p>
-                    
+                    <p class="texts">Realtor</p>
+                    <asp:ImageButton style="margin-left: 190px;" width="25px" ID="ImageButton6" runat="server" AlternateText="More info"  ImageUrl="\Gemini_Generated_Image_tlrmkqtlrmkqtlrm.png" OnClick="ImageButton6_Click"/>
+                    <br /><br /><asp:Label class="texts" ID="Label6" runat="server" Text=""></asp:Label>
                 </div>
-            </div>
+            </div> <br /><br /><br />
         </div> <br />
         <footer class="site-footer">
             <strong>Contact us</strong>
