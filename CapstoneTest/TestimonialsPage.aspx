@@ -16,12 +16,16 @@
                     <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/HomePage.aspx" Text="Home" /></li>
                     <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/AgentsPage.aspx" Text="Agents" /></li>
                     <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/TestimonialsPage.aspx" Text="Testimonials" /></li>
+                    <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/CVDiego.aspx" Text="Diego" /></li>
                 </ul>
             </nav>
         </div>
         <div class="hero-section2">
             <div class="hero-overlay">
-                <h1 class="hero-text">Testimonials</h1>
+                <div class="hero-text">
+                    <h2>TESTIMONIALS</h2>
+                    <p style="font-size:20px">Hear what our clients have to say</p>
+                </div>
             </div>
         </div><br /><br /><br /><br />
         <div>

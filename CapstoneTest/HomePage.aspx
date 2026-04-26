@@ -16,6 +16,7 @@
                     <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/HomePage.aspx" Text="Home" /></li>
                     <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/AgentsPage.aspx" Text="Agents" /></li>
                     <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/TestimonialsPage.aspx" Text="Testimonials" /></li>
+                    <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/CVDiego.aspx" Text="Diego" /></li>
                 </ul>
             </nav>
         </div>

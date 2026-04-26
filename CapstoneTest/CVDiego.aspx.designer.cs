@@ -11,7 +11,7 @@ namespace CapstoneTest
 {
 
 
-    public partial class HomePage
+    public partial class CVDiego
     {
 
         /// <summary>
