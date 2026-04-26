@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CVDiego.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="Style.css" />
     <Content Include="TestimonialsPage.aspx" />
@@ -74,6 +75,13 @@
     <Content Include="AgentsPage.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CVDiego.aspx.cs">
+      <DependentUpon>CVDiego.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CVDiego.aspx.designer.cs">
+      <DependentUpon>CVDiego.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
