@@ -14,10 +14,12 @@
             <nav class="navbar">
                 <asp:Image ID="LogoImage" runat="server" Style="width: 150px"  src="Gemini_Generated_Image_ry2mhjry2mhjry2m (1).png" />
                 <ul class="nav-menu" style="margin-right: 200px">
-                    <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/HomePage.aspx" Text="Home" /></li>
-                    <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/AgentsPage.aspx" Text="Agents" /></li>
-                    <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/TestimonialsPage.aspx" Text="Testimonials" /></li>
-                    <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/CVDiego.aspx" Text="Diego" /></li>
+                        <li><asp:HyperLink ID="HL1" runat="server" NavigateUrl="~/HomePage.aspx" Text="Home" /></li>
+    <li><asp:HyperLink ID="HL2" runat="server" NavigateUrl="~/PropertiesPage.aspx" Text="Properties" /></li>
+    <li><asp:HyperLink ID="HL3" runat="server" NavigateUrl="~/AgentsPage.aspx" Text="Agents" /></li>
+    <li><asp:HyperLink ID="HL4" runat="server" NavigateUrl="~/TestimonialsPage.aspx" Text="Testimonials" /></li>
+    <li><asp:HyperLink ID="HL5" runat="server" NavigateUrl="~/CVDiego.aspx" Text="Diego (CV)" /></li>
+    <li><asp:HyperLink ID="HL6" runat="server" NavigateUrl="~/CVParker.aspx" Text="Parker (CV)" /></li>
                 </ul>
             </nav>
         </div>
