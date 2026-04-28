@@ -17,7 +17,7 @@ Parker Dugan worked on: Home page with background and CV page
 
 Diego Lobera worked mainly on Agents, Testimonials and CVs pages, but also on the website structure and design (navigation bar, colors, effects, backgrounds, logos, images, ...).
 
-Moreover, we used edititng and AI tools, such as Gemini and Photopea, for generating images and names, choosing text fonts, and improving the design, that suit the project topic and requirements.
+Moreover, we used editing and AI tools, such as Gemini and Photopea, for generating images and names, choosing text fonts, and improving the design, that suit the project topic and requirements.
 ### Design Decisions ###
 We firstly did some research on exisiting real estate websites on internet and found key patterns. We realized real estate is a business that has to build trust with the client and show profesionalism above all, that is why we decided to use a plain but formal style. 
 
