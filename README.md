@@ -13,7 +13,7 @@ Additionally, we created a Github repository to share the files and used Git to 
 
 Isaac Maurer worked on:
 
-Parker Dugan worked on:
+Parker Dugan worked on: Home page with background and CV page
 
 Diego Lobera worked mainly on Agents, Testimonials and CVs pages, but also on the website structure and design (navigation bar, colors, effects, backgrounds, logos, images, ...).
 
