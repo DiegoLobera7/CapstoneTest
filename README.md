@@ -11,7 +11,7 @@ The website consists of the following pages:
 We all three agreed on the topic to work on. Then we set and split the tasks so each worked on different pages, but continuosly checking on each other's progress. 
 Additionally, we created a Github repository to share the files and used Git to update each other's modifcations.
 
-Isaac Maurer worked on:
+Isaac Maurer worked on: listings page and added his cv
 
 Parker Dugan worked on:
 
